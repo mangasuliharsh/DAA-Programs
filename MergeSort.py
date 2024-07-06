@@ -1,3 +1,7 @@
+import time 
+from random import randint
+import matplotlib.pyplot as plt
+
 def divide(array, low, high):
     if low < high:
         mid = (low + high) // 2
