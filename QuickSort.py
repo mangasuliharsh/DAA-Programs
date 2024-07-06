@@ -1,3 +1,7 @@
+import time 
+from random import randint
+import matplotlib.pyplot as plt
+
 def partition(array,low,high):
     i=low-1
     pivot=high
