@@ -8,7 +8,7 @@ def shift_table():
     for i in range(128):
         table.append(m)
     for i in range(len(pattern)-1):
-        table[ord(pattern[i])-ord('0')]=m-1-i;
+        table[ord(pattern[i])-ord('0')]=m-1-i
     print(".......Shift Table Ready...........\n", table)
 def horspool():
     i=m-1;
